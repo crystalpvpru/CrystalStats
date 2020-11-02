@@ -1,0 +1,12 @@
+name: CrystalStats
+version: 1.0
+author: mrnv
+main: me.mrnv.crystalstats.Main
+depend: [DeathMessagesPrime]
+commands:
+  stats:
+    description: displays players's statistics
+    usage: /stats <name>
+  forcewrite:
+    description: forcefully writes data from cache to disk
+    usage: /forcewrite
